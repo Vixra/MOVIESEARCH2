@@ -1,0 +1,21 @@
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif
+}
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+#main {
+  max-width:1920px;
+  width:100%;
+  margin: 0 auto;
+  background: #000000;
+}
+
+@media only screen and (max-width: 1920px) {#main {margin-left: 0}}
+
+
+
+.main-footer {
+    text-align: center;
+     background: #000000;
+}

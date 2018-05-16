@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="special.css">
+  <meta charset="UTF-8">
+  <title>Movie Database Search</title>
+  <script src="libraries/p5.js" type="text/javascript"></script>
+
+  <script src="libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+  <script src="sketch.js" type="text/javascript"></script>
+
+</head>
+
+<body class="w3-black">
+  <div class="w3-padding-large" id="main">
+
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small">Search</span><br>media</h1>
+      <p>Media Database</p>
+    </header>
+    <!-- About Section -->
+    <div>
+      <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+
+        <h2 class="w3-container w3-text-light-grey">Who are we?</h2>
+        <hr style="align: center width:100px" class="w3-opacity">
+        <p>A search engine to satisfy all your visual media needs. </p>
+      </div>
+    </div>
+    <!--Actor-->
+    <div class="w3-quarter w3-section w3-hover-color w3-hover-purple">
+      <span class="w3-xlarge w3-wide">Actor</span>
+      <br>
+      <p> Search
+        <input id="actor" value="Johnny Depp">
+      </p>
+      <button id="searchActor"> Submit </button>
+    </div>
+    <!--Movie-->
+    <div class="w3-quarter w3-section w3-hover-color w3-hover-pink">
+      <span class="w3-xlarge w3-wide">Movie</span>
+      <br>
+      <p> Search
+        <input id="movie" value="Zathura">
+      </p>
+      <button id="searchMovie"> Submit </button>
+    </div>
+    <!--Genre-->
+    <div class="w3-quarter w3-section w3-hover-color w3-hover-indigo">
+      <span class="w3-xlarge w3-wide">Genre</span>
+      <br>
+      <p> Search
+        <input id="genre" value="Thriller">
+      </p>
+      <button id="searchGenre"> Submit </button>
+    </div>
+    <!--Keyword-->
+    <div class="w3-quarter w3-section w3-hover-color w3-hover-red">
+      <span class="w3-xlarge w3-wide w3-center">Popular</span>
+      <br>
+      <br>
+      <br>
+      <button id="searchPopular"> Search Popular </button>
+    </div>
+    <br>
+
+  </div>
+  <!--Start Footer-->
+  <!--<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+    <!-- End footer
+  </footer>-->
+
+</body>
+
+</html>
